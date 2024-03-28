@@ -32826,11 +32826,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aluno\\sap-o-2\\Sapo\\Sapo.csproj",
+      "projectUniqueName": "C:\\Users\\Aluno\\sap-o-1\\Sapo\\Sapo.csproj",
       "projectName": "Sapo",
-      "projectPath": "C:\\Users\\Aluno\\sap-o-2\\Sapo\\Sapo.csproj",
+      "projectPath": "C:\\Users\\Aluno\\sap-o-1\\Sapo\\Sapo.csproj",
       "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aluno\\sap-o-2\\Sapo\\obj\\",
+      "outputPath": "C:\\Users\\Aluno\\sap-o-1\\Sapo\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [

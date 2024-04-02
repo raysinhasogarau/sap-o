@@ -4,12 +4,17 @@
              x:Class="Sapo.MainPage"
              Shell.NavBarIsVisible="false">
     <Grid>
-        <Image Source="fundo.jpg"
-                Aspect="AspectFill"/>
+        <Image Source="fazendinha.jpg"
+                Aspect="Fill"/>
 
         <Image x:Name="imgDoPerssonagem"
-                Margin="20,0"
-                Source="vaca.png"
+                Margin="15,0"
+                Source="cabritinhop1r.png"
+                VerticalOptions="End"/>
+
+        <Image x:Name="Sapao"
+                Margin="15,0"
+                Source="capivarinhap1rrr.png"
                 VerticalOptions="End"/>
 
     </Grid>

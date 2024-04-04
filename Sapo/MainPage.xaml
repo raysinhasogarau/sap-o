@@ -7,15 +7,21 @@
         <Image Source="fazendinha.jpg"
                 Aspect="Fill"/>
 
-        <Image x:Name="imgDoPerssonagem"
+        <Image x:Name="cabritinho"
                 Margin="15,0"
-                Source="cabritinhop1r.png"
+                Source="cabritinhop1rrroo.png"
                 VerticalOptions="End"/>
 
-        <Image x:Name="Sapao"
-                Margin="15,0"
-                Source="capivarinhap1rrr.png"
+        <Image x:Name="capivarao"
+                WidthRequest="450"
+                Source="capivarinhap1rroo.png"
                 VerticalOptions="End"/>
+
+        <Image x:Name="raposaMtoloka"
+                WidthRequest="450"
+                Source="raposaop1.png"
+                VerticalOptions="End"/>
+        
 
     </Grid>
 </ContentPage>

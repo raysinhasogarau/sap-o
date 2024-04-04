@@ -4,24 +4,36 @@
              x:Class="Sapo.MainPage"
              Shell.NavBarIsVisible="false">
     <Grid>
-        <Image Source="fazendinha.jpg"
+
+        <Image  Source="fazendinha.jpg"
                 Aspect="Fill"/>
 
         <Image x:Name="cabritinho"
-                Margin="15,0"
-                Source="cabritinhop1rrroo.png"
+                WidthRequest="150"
+                Source="cabritinhop1rrr.png"
+                HorizontalOptions="Start"
                 VerticalOptions="End"/>
 
         <Image x:Name="capivarao"
-                WidthRequest="450"
-                Source="capivarinhap1rroo.png"
+                WidthRequest="150"
+                Source="capivarinhap1rrroo.png"
+                HorizontalOptions="Center"
                 VerticalOptions="End"/>
 
         <Image x:Name="raposaMtoloka"
-                WidthRequest="450"
+                WidthRequest="150"
                 Source="raposaop1.png"
+                HorizontalOptions="End"
                 VerticalOptions="End"/>
         
+         <Label Text="Fazendinha"
+                TextColor="#d9c812"
+                Margin="20"
+                FontSize="40"
+                FontFamily="Nicolast.otf"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                VerticalOptions="Start"/>
 
     </Grid>
 </ContentPage>

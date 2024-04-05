@@ -4,27 +4,56 @@
              x:Class="Sapo.MainPage"
              Shell.NavBarIsVisible="false">
     <Grid>
+        <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
 
         <Image  Source="fazendinha.jpg"
-                Aspect="Fill"/>
+                Aspect="Fill"
+                Grid.RowSpan="3"/>
+
+        <Frame Grid.Row="1"
+               BackgroundColor="#88ffffff"
+               HorizontalOptions="End"
+               WidthRequest="80">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <ImageButton Source="seta_direita.png"
+                                 Clicked="ClicouSetaDireita"
+                                 Grid.Row="0"/>
+                    
+                    <ImageButton Source="icon_comida.png"
+                                 Clicked="ClicouBotaoComida"
+                                 Grid.Row="1"/>
+
+                    <ImageButton Source="icon_agua.png"
+                                 Clicked="ClicouBotaoAgua"
+                                 Grid.Row="2"/>
+
+                    <ImageButton Source="icon_carinho.png"
+                                 Clicked="ClicouBotaoCarinho"
+                                 Grid.Row="3"/>
+                </Grid>
+        </Frame>
 
         <Image x:Name="cabritinho"
-                WidthRequest="150"
-                Source="cabritinhop1rrr.png"
-                HorizontalOptions="Start"
-                VerticalOptions="End"/>
+               Grid.Row="2"
+               WidthRequest="150"
+               Source="cabritinhop1rrr.png"
+               HorizontalOptions="Center"
+               VerticalOptions="End"/>
 
-        <Image x:Name="capivarao"
-                WidthRequest="150"
-                Source="capivarinhap1rrroo.png"
-                HorizontalOptions="Center"
-                VerticalOptions="End"/>
-
-        <Image x:Name="raposaMtoloka"
-                WidthRequest="150"
-                Source="raposaop1.png"
-                HorizontalOptions="End"
-                VerticalOptions="End"/>
         
          <Label Text="Fazendinha"
                 TextColor="#d9c812"
@@ -34,6 +63,7 @@
                 HorizontalOptions="Center"
                 HorizontalTextAlignment="Center"
                 VerticalOptions="Start"/>
+                
 
     </Grid>
 </ContentPage>

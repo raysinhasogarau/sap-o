@@ -8,6 +8,7 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
+               
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
@@ -63,6 +64,18 @@
                 HorizontalOptions="Center"
                 HorizontalTextAlignment="Center"
                 VerticalOptions="Start"/>
+
+        
+        <ProgressBar x:Name="progressBarComida"
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        Grid.ColumnSpan="50"/>
+
+       
+
+
+              
+        
                 
 
     </Grid>

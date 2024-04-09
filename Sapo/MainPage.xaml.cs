@@ -7,7 +7,7 @@ public partial class MainPage : ContentPage
 		InitializeComponent();
 	}
 
-	private void ClicouBotaoComida(object sender, EventArgs args)
+	private void ClicouBotaoComida( object sender, EventArgs args)
 	{
 
 	}

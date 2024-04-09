@@ -10,10 +10,14 @@
 using System;
 using System.Reflection;
 
+[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.PackageName", "com.companyname.sapo")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.PublisherName", "User Name")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.Name", "Sapo")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.Version", "1.0.0.1")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sapo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1889a7a9d7889c372f877e318d10351af80e741")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+173fd9589350f7bc0de4273d9a373f2ced11beaa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sapo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sapo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

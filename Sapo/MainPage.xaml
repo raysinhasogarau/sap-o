@@ -5,6 +5,7 @@
              Shell.NavBarIsVisible="false">
     <Grid>
         <Grid.RowDefinitions>
+                <RowDefinition Height="80"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
@@ -16,9 +17,65 @@
 
         <Image  Source="fazendinha.jpg"
                 Aspect="Fill"
-                Grid.RowSpan="3"/>
+                Grid.RowSpan="4"/>
 
-        <Frame Grid.Row="1"
+        <Label Text="Fazendinha"
+                TextColor="#d9c812"
+                Margin="20"
+                FontSize="40"
+                FontFamily="Nicolast.otf"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                VerticalOptions="Start"
+                Grid.Row="0"/>
+
+                <Frame Grid.Row="1"
+                       BackgroundColor="#88ffffff"
+                       Margin="20">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="60"/>
+                                <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                    
+                        <ProgressBar x:Name="progressBarComida"
+                                     ProgressColor="Red"
+                                     Grid.Row="0"
+                                     Grid.Column="1"
+                                     Grid.ColumnSpan="50"/>
+                        
+                        <Image Source="icon_comida.png"
+                               Grid.Row="0"
+                               Grid.Column="0"/>
+
+                        <ProgressBar x:Name="progressBarAgua"
+                                     ProgressColor="Blue"   
+                                     Grid.Row="1"
+                                     Grid.Column="1"
+                                     Grid.ColumnSpan="50"/>
+                        
+                        <Image Source="icon_agua.png"
+                               Grid.Row="1"
+                               Grid.Column="0"/>
+                        
+                        <ProgressBar x:Name="progressCarinho"
+                                     ProgressColor="Yellow"   
+                                     Grid.Row="2"
+                                     Grid.Column="1"
+                                     Grid.ColumnSpan="50"/>
+                                     
+                        <Image Source="icon_carinho.png"
+                               Grid.Row="2"
+                               Grid.Column="0"/>
+                    </Grid>
+                </Frame>
+
+        <Frame Grid.Row="2"
                BackgroundColor="#88ffffff"
                HorizontalOptions="End"
                WidthRequest="80">
@@ -48,38 +105,18 @@
                 </Grid>
         </Frame>
 
-        <Image x:Name="cabritinho"
-               Grid.Row="2"
+        <Image x:Name="ImagemAnimal"
+               Grid.Row="3"
                WidthRequest="150"
                Source="cabritinhop1rrr.png"
                HorizontalOptions="Center"
                VerticalOptions="End"/>
 
         
-         <Label Text="Fazendinha"
-                TextColor="#d9c812"
-                Margin="20"
-                FontSize="40"
-                FontFamily="Nicolast.otf"
-                HorizontalOptions="Center"
-                HorizontalTextAlignment="Center"
-                VerticalOptions="Start"/>
+         
 
         
-        <ProgressBar x:Name="progressBarComida"
-                        Grid.Row="0"
-                        Grid.Column="1"
-                        Grid.ColumnSpan="50"/>
-
-        <ProgressBar x:Name="progressBarAgua"
-                        Grid.Row="1"
-                        Grid.Column="1"
-                        Grid.ColumnSpan="50"/>
         
-        <ProgressBar  x:Name="progressCarinho"
-                        Grid.Row="2"
-                        Grid.Column="1"
-                        Grid.ColumnSpan="50"/>
                         
 
        

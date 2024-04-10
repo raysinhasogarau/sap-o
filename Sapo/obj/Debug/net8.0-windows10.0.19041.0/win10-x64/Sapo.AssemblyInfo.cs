@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sapo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+173fd9589350f7bc0de4273d9a373f2ced11beaa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+86c6b21cd2bc9d4d03521afe5873d213c713fe61")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sapo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sapo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

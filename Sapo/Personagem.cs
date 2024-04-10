@@ -14,7 +14,7 @@ public partial class Personagem
         Carinho = 0;
     }
 
-    public void GetComida(double comida)
+    public void SetComida(double comida)
     {
         if(comida < 0)
             Comida = 0;
@@ -26,7 +26,7 @@ public partial class Personagem
             Comida = comida;    
     }
 
-    public void GetAgua(double agua)
+    public void SetAgua(double agua)
     {
         if(agua < 0)
             Agua = 0;
@@ -38,7 +38,7 @@ public partial class Personagem
             Agua = agua; 
     }
 
-    public void GetCarinho(double carinho)
+    public void SetCarinho(double carinho)
     {
         if(carinho < 0)
             Carinho =  0;
@@ -49,5 +49,24 @@ public partial class Personagem
         else    
             Carinho = carinho; 
     }
+    public double GetComida()
+    {
+        return Comida;
+    }
+    public double GetAgua()
+    {
+        return Agua;
+    }
+    public double GetCarinho()
+    {
+        return Carinho;
+    }
+
+    public string GetImagem()
+    {
+        return FotoAnimal;
+    }
+
+
 
 }
